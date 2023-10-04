@@ -46,21 +46,20 @@ class ViewController: UIViewController {
         playSound(filename: "KatjaEpsteinTheater (online-audio-converter.com).mp3")
     }
     
-    @IBAction func ToiletteButtonClicked(_ sender: Any) {
-        //playSound(filename: "Toilet Flush Refill-SoundBible.com-745359665.mp3")
-        playSound(filename: "nacht-tag.wav")
+    @IBAction func TürklingelButtonClicked(_ sender: Any) {
+        playSound(filename: "doorbell2-6450.mp3")
     }
     
     @IBAction func TatortButtonClicked(_ sender: Any) {
         playSound(filename: "tatort-klingelton-mp3-100_laenger.mp3")
     }
     
-    @IBAction func FurzButtonClicked(_ sender: Any) {
-        playSound(filename: "Fart-Common-Everyday-Fart_Mike-Koenig.mp3")
+    @IBAction func JamesBondButtonClicked(_ sender: Any) {
+        playSound(filename: "Bond.wav")
     }
     
-    @IBAction func AstKnackenButtonClicked(_ sender: Any) {
-        playSound(filename: "Knacken (online-audio-converter.com).mp3")
+    @IBAction func MissionImpossibleButtonClicked(_ sender: Any) {
+        playSound(filename: "MissionImpossible.wav")
     }
     
     @IBAction func TelefonButtonClicked(_ sender: Any) {
