@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2BCF172728615D0087FDE9 /* nacht-tag.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F2BCF162728615D0087FDE9 /* nacht-tag.wav */; };
+		7F40B457235F682400431579 /* Knacken (online-audio-converter.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F40B456235F682400431579 /* Knacken (online-audio-converter.com).mp3 */; };
+		7F619F312349341200580293 /* tatort-klingelton-mp3-100.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F619F302349341200580293 /* tatort-klingelton-mp3-100.wav */; };
+		7F619F352349389B00580293 /* Toilet Flush Refill-SoundBible.com-745359665.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F619F342349389B00580293 /* Toilet Flush Refill-SoundBible.com-745359665.mp3 */; };
+		7F74B987235C8E3F00D8A9FE /* Knacken_original.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F74B985235C8E3F00D8A9FE /* Knacken_original.mp3 */; };
+		7FACDD7B23633F8600636663 /* KatjaEpsteinTheater (online-audio-converter.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FACDD7A23633F8600636663 /* KatjaEpsteinTheater (online-audio-converter.com).mp3 */; };
+		7FACDD7D23647DBF00636663 /* Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FACDD7C23647DBF00636663 /* Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3 */; };
+		7FBEE646233116F300768506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEE645233116F300768506 /* AppDelegate.swift */; };
+		7FBEE648233116F300768506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEE647233116F300768506 /* ViewController.swift */; };
+		7FBEE64B233116F300768506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBEE649233116F300768506 /* Main.storyboard */; };
+		7FBEE64D233116F400768506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBEE64C233116F400768506 /* Assets.xcassets */; };
+		7FBEE650233116F400768506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBEE64E233116F400768506 /* LaunchScreen.storyboard */; };
+		7FC756832359F49500AFC0D7 /* Fart-Common-Everyday-Fart_Mike-Koenig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FC756822359F49500AFC0D7 /* Fart-Common-Everyday-Fart_Mike-Koenig.mp3 */; };
+		7FF73E2D2360A2C00002D0D9 /* tatort-klingelton-mp3-100_laenger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF73E2C2360A2C00002D0D9 /* tatort-klingelton-mp3-100_laenger.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F2BCF162728615D0087FDE9 /* nacht-tag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "nacht-tag.wav"; sourceTree = "<group>"; };
+		7F40B456235F682400431579 /* Knacken (online-audio-converter.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Knacken (online-audio-converter.com).mp3"; sourceTree = "<group>"; };
+		7F619F302349341200580293 /* tatort-klingelton-mp3-100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tatort-klingelton-mp3-100.wav"; sourceTree = "<group>"; };
+		7F619F342349389B00580293 /* Toilet Flush Refill-SoundBible.com-745359665.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Toilet Flush Refill-SoundBible.com-745359665.mp3"; sourceTree = "<group>"; };
+		7F68AA7B2362387100DC453C /* KatjaEpsteinTheater.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = KatjaEpsteinTheater.m4a; sourceTree = "<group>"; };
+		7F74B985235C8E3F00D8A9FE /* Knacken_original.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Knacken_original.mp3; sourceTree = "<group>"; };
+		7FACDD7A23633F8600636663 /* KatjaEpsteinTheater (online-audio-converter.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KatjaEpsteinTheater (online-audio-converter.com).mp3"; sourceTree = "<group>"; };
+		7FACDD7C23647DBF00636663 /* Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3"; sourceTree = "<group>"; };
+		7FBEE642233116F300768506 /* SoundPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBEE645233116F300768506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FBEE647233116F300768506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FBEE64A233116F300768506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FBEE64C233116F400768506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FBEE64F233116F400768506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FBEE651233116F400768506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC756822359F49500AFC0D7 /* Fart-Common-Everyday-Fart_Mike-Koenig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fart-Common-Everyday-Fart_Mike-Koenig.mp3"; sourceTree = "<group>"; };
+		7FF73E2C2360A2C00002D0D9 /* tatort-klingelton-mp3-100_laenger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tatort-klingelton-mp3-100_laenger.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FBEE63F233116F300768506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F283EF12336CDB000F2110D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7F2BCF162728615D0087FDE9 /* nacht-tag.wav */,
+				7FC756822359F49500AFC0D7 /* Fart-Common-Everyday-Fart_Mike-Koenig.mp3 */,
+				7F74B985235C8E3F00D8A9FE /* Knacken_original.mp3 */,
+				7FF73E2C2360A2C00002D0D9 /* tatort-klingelton-mp3-100_laenger.mp3 */,
+				7FACDD7A23633F8600636663 /* KatjaEpsteinTheater (online-audio-converter.com).mp3 */,
+				7FACDD7C23647DBF00636663 /* Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3 */,
+				7F40B456235F682400431579 /* Knacken (online-audio-converter.com).mp3 */,
+				7F68AA7B2362387100DC453C /* KatjaEpsteinTheater.m4a */,
+				7F619F342349389B00580293 /* Toilet Flush Refill-SoundBible.com-745359665.mp3 */,
+				7F619F302349341200580293 /* tatort-klingelton-mp3-100.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7FBEE639233116F300768506 = {
+			isa = PBXGroup;
+			children = (
+				7FBEE644233116F300768506 /* SoundPad */,
+				7FBEE643233116F300768506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FBEE643233116F300768506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FBEE642233116F300768506 /* SoundPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FBEE644233116F300768506 /* SoundPad */ = {
+			isa = PBXGroup;
+			children = (
+				7FBEE645233116F300768506 /* AppDelegate.swift */,
+				7FBEE647233116F300768506 /* ViewController.swift */,
+				7FBEE649233116F300768506 /* Main.storyboard */,
+				7F283EF12336CDB000F2110D /* Sounds */,
+				7FBEE64C233116F400768506 /* Assets.xcassets */,
+				7FBEE64E233116F400768506 /* LaunchScreen.storyboard */,
+				7FBEE651233116F400768506 /* Info.plist */,
+			);
+			path = SoundPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FBEE641233116F300768506 /* SoundPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FBEE654233116F400768506 /* Build configuration list for PBXNativeTarget "SoundPad" */;
+			buildPhases = (
+				7FBEE63E233116F300768506 /* Sources */,
+				7FBEE63F233116F300768506 /* Frameworks */,
+				7FBEE640233116F300768506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundPad;
+			productName = SoundPad;
+			productReference = 7FBEE642233116F300768506 /* SoundPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FBEE63A233116F300768506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "STABILO International GmbH";
+				TargetAttributes = {
+					7FBEE641233116F300768506 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 7FBEE63D233116F300768506 /* Build configuration list for PBXProject "SoundPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FBEE639233116F300768506;
+			productRefGroup = 7FBEE643233116F300768506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FBEE641233116F300768506 /* SoundPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FBEE640233116F300768506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F40B457235F682400431579 /* Knacken (online-audio-converter.com).mp3 in Resources */,
+				7FBEE650233116F400768506 /* LaunchScreen.storyboard in Resources */,
+				7FACDD7D23647DBF00636663 /* Altes Telefon Klingelton (Ring Ring klassisch) als MP3-Datei.mp3 in Resources */,
+				7F74B987235C8E3F00D8A9FE /* Knacken_original.mp3 in Resources */,
+				7F2BCF172728615D0087FDE9 /* nacht-tag.wav in Resources */,
+				7F619F352349389B00580293 /* Toilet Flush Refill-SoundBible.com-745359665.mp3 in Resources */,
+				7FC756832359F49500AFC0D7 /* Fart-Common-Everyday-Fart_Mike-Koenig.mp3 in Resources */,
+				7FACDD7B23633F8600636663 /* KatjaEpsteinTheater (online-audio-converter.com).mp3 in Resources */,
+				7FBEE64D233116F400768506 /* Assets.xcassets in Resources */,
+				7FF73E2D2360A2C00002D0D9 /* tatort-klingelton-mp3-100_laenger.mp3 in Resources */,
+				7FBEE64B233116F300768506 /* Main.storyboard in Resources */,
+				7F619F312349341200580293 /* tatort-klingelton-mp3-100.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FBEE63E233116F300768506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FBEE648233116F300768506 /* ViewController.swift in Sources */,
+				7FBEE646233116F300768506 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FBEE649233116F300768506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FBEE64A233116F300768506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FBEE64E233116F400768506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FBEE64F233116F400768506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FBEE652233116F400768506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FBEE653233116F400768506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FBEE655233116F400768506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VEG5BVB5B;
+				INFOPLIST_FILE = SoundPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jens.de.SoundPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FBEE656233116F400768506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VEG5BVB5B;
+				INFOPLIST_FILE = SoundPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jens.de.SoundPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FBEE63D233116F300768506 /* Build configuration list for PBXProject "SoundPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FBEE652233116F400768506 /* Debug */,
+				7FBEE653233116F400768506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FBEE654233116F400768506 /* Build configuration list for PBXNativeTarget "SoundPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FBEE655233116F400768506 /* Debug */,
+				7FBEE656233116F400768506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FBEE63A233116F300768506 /* Project object */;
+}
